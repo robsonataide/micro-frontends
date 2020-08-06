@@ -1,4 +1,4 @@
-Técnicas, estratégias e receitas para construir uma __aplicação web __moderna com __múltiplas equipes__ que podem __entregar funcionalidades independentemente__.
+Técnicas, estratégias e receitas para construir uma __aplicação web moderna__ com __múltiplas equipes__ que podem __entregar funcionalidades independentemente__.
 
 ## O que são Micro Frontends?
 
