@@ -1,11 +1,13 @@
 # Micro Frontends
 **Extending the Microservice Paradigms to Web Development**
 
+Tradução em Português [https://micro-frontends-pt.org/](https://micro-frontends-pt.org/)
+
 The actual site can be found at [micro-frontends.org](https://micro-frontends.org/).
 
 ## Author
 
-Michael Geers [@naltatis](https://twitter.com/naltatis)
+This is a translation by Bruno Carneiro from the original article by Michael Geers [@naltatis](https://twitter.com/naltatis)
 
 ## Contribute
 
