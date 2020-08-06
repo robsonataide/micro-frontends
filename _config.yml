@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
 show_downloads: false
 title: Micro Frontends
-description: Extendendo a ideia de microservices para o desenvolvimento frontend
+description: Estendendo a ideia de microservices para o desenvolvimento frontend
 github:
   is_project_page: true
   repository_url: https://github.com/tautorn/micro-frontends
