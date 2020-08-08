@@ -382,4 +382,4 @@ veja o [Github Repo](https://github.com/neuland/micro-frontends) para mais infor
 - [Jorge Beltrán](https://github.com/scipion) que traduziu o site para [Spanish](https://micro-frontends-es.org).
 - [Bruno Carneiro](https://github.com/tautorn) que traduziu o site para [Português](https://tautorn.github.io/micro-frontends/).
 
-Este site é gerado pelo Github Pages. Seu fonte pode ser encontrado em [neuland/micro-frontends](https://github.com/neuland/micro-frontends/).
+Este site é gerado pelo Github Pages. Seu fonte pode ser encontrado em [tautorn/micro-frontends](https://github.com/tautorn/micro-frontends/).
