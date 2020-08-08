@@ -7,7 +7,7 @@ O termo __Micro Frontends__ apareceu pela primeira vez em [ThoughtWorks Technolo
 
 A ideia por trás de Micro Frontends é pensar como um website ou aplicação web __uma composição de funcionalidades__ que são propriedades de __equipes independentes__. Cada equipe tem uma __distinta área de negócios__ ou __missão__ do qual se preocupam em especializar-se. Uma equipe é __cross functional__ e desenvolvem suas funcionalidades __fim-a-fim__, desde o banco de dados até a interface para o usuário.
 
-No entando, essa ideia não é nova. Tem muito em comum com o conceito[Sistemas Independentes](http://scs-architecture.org/). No passado era abordado com o nome de [Integração Frontend para Sistemas Verticalizados](https://dev.otto.de/2014/07/29/scaling-with-microservices-and-vertical-decomposition/). Mas Micro Frontends é claramente mais amigável e é um termo menos volumoso.
+No entando, essa ideia não é nova. Tem muito em comum com o conceito de [Sistemas Independentes](http://scs-architecture.org/). No passado era abordado com o nome de [Integração Frontend para Sistemas Verticalizados](https://dev.otto.de/2014/07/29/scaling-with-microservices-and-vertical-decomposition/). Mas Micro Frontends é claramente mais amigável e é um termo menos volumoso.
 
 __Frontends Monolíticos__
 ![Monolithic Frontends](./ressources/diagrams/organisational/monolith-frontback-microservices.png)
@@ -109,8 +109,7 @@ Se a equipe Product utilizar um motor de template que detecta diferenças no DOM
 
 ![Alteração de Atributo de um Elemento Personalizado](./ressources/video/custom-element-attribute.gif)
 
-Para apoiar isto, o Elemento Personalizado pode implementar o `attributeChangedCallback` e especificar a lista de `observedAttributes`
-para que este callback seja disparado.
+Para apoiar isto, o Elemento Personalizado pode implementar o `attributeChangedCallback` e especificar a lista de `observedAttributes` para que este callback seja disparado.
 
     const prices = {
       t_porsche: '66,00 €',
@@ -344,16 +343,16 @@ veja o [Github Repo](https://github.com/neuland/micro-frontends) para mais infor
 
 ## Recursos Adicionais
 - [Book: Micro Frontends in Action](https://www.manning.com/books/micro-frontends-in-action?a_aid=mfia&a_bid=5f09fdeb) Atualmente escrito por mim. Currently in Mannings Early Access Programm (MEAP)
-- [Talk: Micro Frontends - MicroCPH, Copenhagen 2019](https://www.youtube.com/watch?v=wCHYILvM7kU) ([Slides](https://noti.st/naltatis/zQb2m5/micro-frontends-the-nitty-gritty-details-or-frontend-backend-happyend)) The Nitty Gritty Details or Frontend, Backend, 🌈 Happyend
-- [Talk: Micro Frontends - Web Rebels, Oslo 2018](https://www.youtube.com/watch?v=dTW7eJsIHDg) ([Slides](https://noti.st/naltatis/HxcUfZ/micro-frontends-think-smaller-avoid-the-monolith-love-the-backend)) Think Smaller, Avoid the Monolith, ❤️the Backend
+- [Talk: Micro Frontends - MicroCPH, Copenhagen 2019](https://www.youtube.com/watch?v=wCHYILvM7kU) ([Slides](https://noti.st/naltatis/zQb2m5/micro-frontends-the-nitty-gritty-details-or-frontend-backend-happyend)) Os detalhes da Nitty Gritty ou Frontend, Backend, 🌈 Final Feliz
+- [Talk: Micro Frontends - Web Rebels, Oslo 2018](https://www.youtube.com/watch?v=dTW7eJsIHDg) ([Slides](https://noti.st/naltatis/HxcUfZ/micro-frontends-think-smaller-avoid-the-monolith-love-the-backend)) Pense Pequeno, Evite o Monolito, ❤️o Backend
 - [Slides: Micro Frontends - JSUnconf.eu 2017](https://speakerdeck.com/naltatis/micro-frontends-building-a-modern-webapp-with-multiple-teams)
-- [Talk: Break Up With Your Frontend Monolith - JS Kongress 2017](https://www.youtube.com/watch?v=W3_8sxUurzA) Elisabeth Engel talks about implementing Micro Frontends at gutefrage.net
-- [Article: Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) Article by Cam Jackson on Martin Fowlers Blog
-- [Post: Micro frontends - a microservice approach to front-end web development](https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16) Tom Söderlund explains the core concept and provides links on this topic
-- [Post: Microservices to Micro-Frontends](http://www.agilechamps.com/microservices-to-micro-frontends/) Sandeep Jain summarizes the key principals behind microservices and micro frontends
-- [Link Collection: Micro Frontends by Elisabeth Engel](https://micro-frontends.zeef.com/elisabeth.engel?ref=elisabeth.engel&share=ee53d51a914b4951ae5c94ece97642fc) extensive list of posts, talks, tools and other resources on this topic
-- [Awesome Micro Frontends](https://github.com/ChristianUlbrich/awesome-microfrontends) a curated list of links by Christian Ulbrich 🕶
-- [Custom Elements Everywhere](https://custom-elements-everywhere.com/) Making sure frameworks and custom elements can be BFFs
+- [Talk: Break Up With Your Frontend Monolith - JS Kongress 2017](https://www.youtube.com/watch?v=W3_8sxUurzA) Elisabeth Engel fala sobre a implementação de Micro Frontends na gutefrage.net
+- [Article: Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) Artigo por Cam Jackson on Martin Fowlers Blog
+- [Post: Micro frontends - a microservice approach to front-end web development](https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16) Tom Söderlund explica os principais conceitos e providencia links neste tópico
+- [Post: Microservices to Micro-Frontends](http://www.agilechamps.com/microservices-to-micro-frontends/) Sandeep Jain resume os principais princípios por trás de microservices e micro frontends
+- [Link Collection: Micro Frontends by Elisabeth Engel](https://micro-frontends.zeef.com/elisabeth.engel?ref=elisabeth.engel&share=ee53d51a914b4951ae5c94ece97642fc) extensiva lista de artigos, conversas, ferramentas e outros recursos neste tópico
+- [Awesome Micro Frontends](https://github.com/ChristianUlbrich/awesome-microfrontends) uma lista selecionada de links por Christian Ulbrich 🕶
+- [Custom Elements Everywhere](https://custom-elements-everywhere.com/) Certifique-se frameworks e custom elements podem ser BFFs
 - Tractors are purchasable at [manufactum.com](https://www.manufactum.com/) :)<br>_This store is developed by two teams using the here described techniques._
 
 ## Técnicas relacionadas
@@ -381,6 +380,6 @@ veja o [Github Repo](https://github.com/neuland/micro-frontends) para mais infor
 ## Colaboradores
 - [Koike Takayuki](https://github.com/koiketakayuki) que traduziu o site para [Japanese](https://micro-frontends-japanese.org/).
 - [Jorge Beltrán](https://github.com/scipion) que traduziu o site para [Spanish](https://micro-frontends-es.org).
-- [Bruno Carneiro](https://github.com/tautorn) que traduziu o site para [Português](https://micro-frontends-pt.org).
+- [Bruno Carneiro](https://github.com/tautorn) que traduziu o site para [Português](https://tautorn.github.io/micro-frontends/).
 
 Este site é gerado pelo Github Pages. Seu fonte pode ser encontrado em [neuland/micro-frontends](https://github.com/neuland/micro-frontends/).
