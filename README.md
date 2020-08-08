@@ -1,7 +1,7 @@
 # Micro Frontends
 **Extending the Microservice Paradigms to Web Development**
 
-Tradução em Português [https://micro-frontends-pt.org/](https://micro-frontends-pt.org/)
+Tradução em Português [https://tautorn.github.io/micro-frontends/](https://tautorn.github.io/micro-frontends/)
 
 The actual site can be found at [micro-frontends.org](https://micro-frontends.org/).
 
